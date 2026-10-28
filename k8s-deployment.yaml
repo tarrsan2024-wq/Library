@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: library-app
-        image: DOCKERHUB_USERNAME/library-mgmt-app:GITHUB_SHA
+        image: 24mis0060/library-mgmt-app:latest
         ports:
         - containerPort: 5000
 ---
